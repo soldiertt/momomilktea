@@ -108,10 +108,20 @@ hr {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-
-.nav.switch-locale>li>a {
-  padding: 13px 7px;
+.language {
+  list-style: none;
+  display: inline-block;
+  line-height: 55px;
 }
+.language a, .language a:hover {
+  text-decoration: none;
+  color: #5c5c5c;
+}
+.language .switch-locale>li>a {
+  padding: 7px 7px;
+  text-decoration: none;
+}
+
 /* home section */
 #home {
   background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
@@ -263,7 +273,7 @@ hr {
 #contact span.dayname {
   font-weight: normal;
   display: inline-block;
-  min-width: 110px;
+  min-width: 170px;
 }
 #contact span {
   font-weight: bold;

@@ -40,6 +40,15 @@
 				<span class="icon icon-bar"></span>
 				<span class="icon icon-bar"></span>
 			</button>
+			<li class="dropdown language">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+					<img id="imgNavSel" src="images/gb.png" /> <span id="lanNavSel">ENG</span> <span class="caret"></span>
+				</a>
+				<ul class="dropdown-menu switch-locale" role="menu">
+					<li><a href="#" data-locale="en" id="navEng" class="language"><img id="imgNavEng" src="images/gb.png" /> <span id="lanNavEng">English</span></a></li>
+					<li><a href="#" data-locale="fr" id="navFra" class="language"><img id="imgNavFra" src="images/fr.png" /> <span id="lanNavFra">Français</span></a></li>
+				</ul>
+			</li>
 			<a href="#" class="navbar-brand">MOMO MILK TEA - BRUSSELS</a>
 		</div>
 		<div class="collapse navbar-collapse">
@@ -50,15 +59,6 @@
 				<li><a href="#team" class="smoothScroll" data-i18n="nav-who"></a></li>
 				<li><a href="#mapzone" class="smoothScroll" data-i18n="nav-map"></a></li>
 				<li><a href="#contact" class="smoothScroll" data-i18n="nav-contact"></a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                        <img id="imgNavSel" src="images/gb.png" /> <span id="lanNavSel">ENG</span> <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu switch-locale" role="menu">
-                        <li><a href="#" data-locale="en" id="navEng" class="language"><img id="imgNavEng" src="images/gb.png" /> <span id="lanNavEng">English</span></a></li>
-                        <li><a href="#" data-locale="fr" id="navFra" class="language"><img id="imgNavFra" src="images/fr.png" /> <span id="lanNavFra">Français</span></a></li>
-                    </ul>
-                </li>
 			</ul>
 		</div>
 	</div>
@@ -312,17 +312,18 @@
 					</h4>
 				</div>
 			</div>
-			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
+			<div class="col-md-5 col-sm-5 wow fadeInUp" data-wow-delay="0.6s">
 				<h2 class="heading" data-i18n="contact-openhours"></h2>
-					<p><span class="dayname" data-i18n="contact-days-monday"></span><span>11:00 AM - 7:00 PM</span></p>
-					<p><span class="dayname" data-i18n="contact-days-tuesday"></span><span>11:00 AM - 7:00 PM</span></p>
-					<p><span class="dayname" data-i18n="contact-days-wednesday"></span><span>11:00 AM - 7:00 PM</span></p>
-					<p><span class="dayname" data-i18n="contact-days-thursday"></span><span>Closed</span></p>
-					<p><span class="dayname" data-i18n="contact-days-friday"></span><span>11:00 AM - 7:00 PM</span></p>
-					<p><span class="dayname" data-i18n="contact-days-saturday"></span><span>11:00 AM - 7:00 PM</span></p>
-					<p><span class="dayname" data-i18n="contact-days-sunday"></span><span>11:00 AM - 7:00 PM</span></p>
+					<p>
+						<span class="dayname" data-i18n="contact-days-monday-to-saturday"></span>
+						<span>11:00 AM - 7:00 PM</span>
+					</p>
+					<p>
+						<span class="dayname" data-i18n="contact-days-sunday"></span>
+						<span data-i18n="contact-days-closed"></span>
+					</p>
 			</div>
-			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
+			<div class="col-md-3 col-sm-3 wow fadeInUp" data-wow-delay="0.6s">
 				<h2 class="heading" data-i18n="contact-followus"></h2>
 				<ul class="social-icon">
 					<li><a href="https://www.facebook.com/Momo-Milk-Tea-Brussels-206998323151240" class="fa fa-facebook wow bounceIn" data-wow-delay="0.3s"></a></li>
