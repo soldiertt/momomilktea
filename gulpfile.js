@@ -5,7 +5,17 @@ var gulp = require('gulp'),
   clean = require('gulp-clean'),
   concat = require('gulp-concat'),
   htmlreplace = require('gulp-html-replace'),
-  streamqueue = require('streamqueue');
+  streamqueue = require('streamqueue'),
+  translate = require("gulp-translate"),
+  replace = require('gulp-replace');
+
+var pluginConfig = { "templateLanguage": "angular"};
+var languageLinkTemplate = '<a href="%s" class="language"><img src="images/%s.png" /> %s</a>';
+
+var htmlReplaceOptions = {
+  keepBlockTags: true,
+  keepUnassigned: true
+};
 
 // HTML
 gulp.task('html', function() {
@@ -16,8 +26,49 @@ gulp.task('html', function() {
       'appstyles': 'css/app.min.css',
       'vendorscripts': 'js/vendor.min.js',
       'appscripts': 'js/app.min.js'
-    }))
+    }, htmlReplaceOptions))
+    .pipe(rename('index_tpl.html'))
     .pipe(gulp.dest('dist'));
+});
+
+gulp.task("translate.export", function () {
+  return gulp
+
+    // Get the source files.
+    .src(['dist/index_tpl.html'])
+
+    // Export localizable content from the template.
+    .pipe(translate().export(
+      {
+        exportFilePath: "i18n/gulp-default.json"
+      }))
+
+    .pipe(htmlreplace({'langlink': {
+      src: [['index_fr.html', 'fr', 'FRA']],
+      tpl: languageLinkTemplate
+    }}, htmlReplaceOptions))
+    .pipe(rename('index.html'))
+    .pipe(gulp.dest("dist"));
+});
+
+gulp.task("translate.import", function ()
+{
+  return gulp
+
+    .src(["dist/index_tpl.html"])
+    .pipe(translate(pluginConfig).import(
+      {
+        importFilePath: "i18n/gulp-fr.json"
+      }))
+
+    // Write the destination file.
+    .pipe(replace('<html lang="en">', '<html lang="fr">'))
+    .pipe(htmlreplace({'langlink': {
+      src: [['index.html', 'gb', 'ENG']],
+      tpl: languageLinkTemplate
+    }}, htmlReplaceOptions))
+    .pipe(rename('index_fr.html'))
+    .pipe(gulp.dest("dist"));
 });
 
 // JSON
@@ -116,11 +167,14 @@ gulp.task('cssimages', function() {
 
 // Clean
 gulp.task('clean', function() {
-  return gulp.src(['dist/css', 'dist/js', 'dist/images'], {read: false})
+  return gulp.src(['dist/css', 'dist/js', 'dist/images', 'dist/fonts', 'dist/*.html'], {read: false})
     .pipe(clean());
 });
 
 // Default task
+gulp.task('translate', ['html'], function() {
+  gulp.run('translate.export', 'translate.import' );
+});
 gulp.task('default', ['clean'], function() {
-  gulp.run('vendorstyles', 'nivostyles', 'appstyles', 'vendorscripts', 'appscripts', 'images', 'cssimages', 'html', 'json', 'fonts');
+  gulp.run('vendorstyles', 'nivostyles', 'appstyles', 'vendorscripts', 'appscripts', 'images', 'cssimages', 'translate', 'translate.import', 'json', 'fonts');
 });

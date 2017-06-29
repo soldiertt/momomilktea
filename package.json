@@ -18,6 +18,8 @@
     "gulp-concat": "^2.6.1",
     "gulp-html-replace": "^1.6.2",
     "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
+    "gulp-translate": "^1.4.1",
     "gulp-uglify": "^3.0.0",
     "live-server": "^1.2.0",
     "streamqueue": "^1.1.1"

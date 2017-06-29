@@ -1,0 +1,392 @@
+{
+  "225427127": {
+    "content": "Garnish",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "821caa8f3": {
+    "content": "Home",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "e38118ab3": {
+    "content": "Gallery",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "6c4aea89b": {
+    "content": "Menu",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "86a591754": {
+    "content": "Who",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "9d0c4ff17": {
+    "content": "Map",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "fb2f2ecf2": {
+    "content": "Contact",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "647ffbbf7": {
+    "content": "Bubble Tea - Milk Tea - Fruit Tea - Yoghurt",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "4669c63da": {
+    "content": "Small",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "67bd7e726": {
+    "content": "Medium",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "2ddb0bd41": {
+    "content": "Large",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "35837fb14": {
+    "content": "Milk tea *",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "12a579113": {
+    "content": "Bountea",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "ba0b39d54": {
+    "content": "Milk",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "f1cfd2947": {
+    "content": "Coconut",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "a00f99ddb": {
+    "content": "Chocolate",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "57cad569e": {
+    "content": "Ouftea",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "887548ba2": {
+    "content": "Banana",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "f6aae2b08": {
+    "content": "Kokosnoot",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "8b45d0032": {
+    "content": "Taro",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "b62c1190f": {
+    "content": "Simple flavor",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "5d9228dd6": {
+    "content": "Nature",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "92003843f": {
+    "content": "Vanilla",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "a464fc813": {
+    "content": "Mango",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "ec1cdfb78": {
+    "content": "Strawberry",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "aa2c1e04b": {
+    "content": "Watermelon",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "d0737723a": {
+    "content": "Hot",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "2298c48aa": {
+    "content": "Cold",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "9335b8cb4": {
+    "content": "Fruit tea *",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "eda87e012": {
+    "content": "Drinkable yoghurt",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "050db9642": {
+    "content": "Exotic",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "b525c957f": {
+    "content": "Passion fruit",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "72a73f616": {
+    "content": "Red lady",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "736b4d90a": {
+    "content": "Blueberry",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "c38aa04d5": {
+    "content": "Imperial dragon",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "bc087fdb9": {
+    "content": "Lychee",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "3e492aa05": {
+    "content": "Pineapple",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "ef8f70f91": {
+    "content": "Peach",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "4b53951e4": {
+    "content": "Honeydew melon",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "785a02196": {
+    "content": "Kiwi",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "5c2ee1baf": {
+    "content": "Green apple",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "79a77c8e8": {
+    "content": "Grape",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "c67a6e07c": {
+    "content": "Lime",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "44b391319": {
+    "content": "Suggested",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "1e0ebce6f": {
+    "content": "Tapioca bubbles",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "8456b56f7": {
+    "content": "Caramelized manioc",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "f81c45207": {
+    "content": "Popping bubbles",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "b1d25d094": {
+    "content": "(concentrated fruit juice with an agar-agar bubble)",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "c5ac84310": {
+    "content": "Raspberry",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "6c3510d0b": {
+    "content": "Jelly",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "971fede6d": {
+    "content": "Apple",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "4a02244c1": {
+    "content": "Rainbow (mixed)",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "fcad930fd": {
+    "content": "Aloe vera",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "9e2a2fb54": {
+    "content": "Meet Momo Milk Tea Chef",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "823136f76": {
+    "content": "After many years experience in Horeca, i worked for renowned chocolatiers in Brussels.",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "a44175817": {
+    "content": "I'm now happy to serve you at Momo Milk Tea - Brussels.",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "6044e9703": {
+    "content": "Find your way",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "061f11274": {
+    "content": "Contact info",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "daeea4d0c": {
+    "content": "Phone",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "b2881b08c": {
+    "content": "Our location",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "4ae2f7915": {
+    "content": "Open hours",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "c9ace6071": {
+    "content": "Monday to saturday",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "353e97830": {
+    "content": "Sunday",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "e23070743": {
+    "content": "Closed",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  },
+  "f03c46fab": {
+    "content": "Facebook",
+    "sources": [
+      "./index_tpl.html"
+    ]
+  }
+}

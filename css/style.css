@@ -108,19 +108,17 @@ hr {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-.language {
-  list-style: none;
+
+a.language {
   display: inline-block;
   line-height: 55px;
+  font-size: 12px;
 }
-.language a, .language a:hover {
+a.language:hover {
   text-decoration: none;
   color: #5c5c5c;
 }
-.language .switch-locale>li>a {
-  padding: 7px 7px;
-  text-decoration: none;
-}
+
 
 /* home section */
 #home {
